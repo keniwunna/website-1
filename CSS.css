@@ -1,0 +1,48 @@
+body {
+    background-color: blue;
+    text-align: center;
+}
+.intro {
+    font-size: 70px;
+    color: skyblue;
+}
+input[type=submit] {
+    width: 200px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding:12px;
+    cursor: pointer;
+    background-color: red;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+.taskbar {
+    padding: 14px;
+    text-decoration: none;
+    color: blue;
+    background-color: aqua;
+}
+.taskbar > a {
+    margin: 36px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.taskbar > a:hover {
+    background-color: black;
+    color: white;
+}
+.tutors {
+    text-align: center;
+    color: darkblue;
+    position:relative;
+        top: 80px;
+        text-align: center;
+        bottom: 450px;
+    font-size: 1.5em;
+}
+.tutors > a {
+    text-decoration: none;
+    background-color: blue;
+    color: skyblue;
+    padding: 20px;
+}

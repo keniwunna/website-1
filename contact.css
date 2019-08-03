@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    background-image: url(lock.jpg);
+    background-size: cover;
+    color: aquamarine;
+}
+.head {
+    font-size: 60px;
+}
+.phone {
+    font-size: 40px;
+}
+.number {
+    font-size: 30px;
+}
+.email {
+    font-size: 40px;
+}
+.ken {
+    font-size: 30px;
+}
+.adress {
+    font-size: 40px;
+}
+.location {
+    font-size: 30px;
+}
+.mycontact {
+    display: flex;
+    width: 100%;
+    margin: 20px; 
+    padding: 10px; 
+    align-items: center;
+}
+
+.myform{
+    width:100%;
+    margin: 10px;
+    background-image:linear-gradient(to bottom,white,yellow);
+    padding: 15px;   
+    color: black;
+}
+.mymap {
+    width:100%;
+    margin: 10px;
+}
+
+label {
+    font-size: 16pt;
+}
+input, textarea, select {
+    width: 95%;
+    padding: 12px 0px 12px 12px;
+    margin-left: 5px;
+    margin-bottom: 16px;
+
+}
+input[type=submit] {
+    width: 100px;
+    align-items: left;
+    border-radius: 15px;
+    font-size: 20px;
+    padding:12px;
+    cursor: pointer;
+    text-align: left;
+}
+input[type=submit]:hover {
+    background-color: skyblue;
+    color: blue;
+}
+}
+input[type=buttono]:hover {
+    background-color: skyblue;
+    color: blue;
+}
+.taskbar {
+    padding: 14px;
+    text-decoration: none;
+    color: blue;
+    background-color: aqua;
+}
+.taskbar > a {
+    margin: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.taskbar > a:hover {
+    background-color: black;
+    color: white;
+}
+img {
+    height: 50px;
+    width : 100px;
+    border-radius : 20px;
+    margin-top: 30px;
+    margin-left: 500px
+  }

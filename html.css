@@ -1,0 +1,33 @@
+body {
+    background-color: orangered;
+    text-align: center;
+}
+.intro {
+    font-size: 70px;
+    color: orange;
+}
+input[type=submit] {
+    width: 200px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding:12px;
+    cursor: pointer;
+    background-color: red;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+.taskbar {
+    padding: 14px;
+    text-decoration: none;
+    color: blue;
+    background-color: aqua;
+}
+.taskbar > a {
+    margin: 26px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.taskbar > a:hover {
+    background-color: black;
+    color: white;
+}

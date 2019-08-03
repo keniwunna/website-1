@@ -1,0 +1,53 @@
+body {
+    border: 16px solid aqua;
+    background-color: aquamarine;
+}
+.title {
+    font-size: 90px;
+    color: grey;
+}
+.name {
+    font-size: 70px;
+    text-align: center;
+    color: orangered;
+}
+.image {
+    
+     
+     position: relative;
+     background-image: url(octopus.jpg);
+     height: 900px;
+     background-size: cover;
+ }
+.facts {
+    font-size: 25px;
+    color: green;
+    background-color: greenyellow; 
+}
+.brief {
+    font-size: 30px;
+    color: blue;
+    background-color: blueviolet;
+}
+.taskbar {
+    padding: 14px;
+    text-decoration: none;
+    color: blue;
+    background-color: aqua;
+}
+.taskbar > a {
+    margin: 26px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.taskbar > a:hover {
+    background-color: black;
+    color: white;
+}
+img {
+    height: 40px;
+    width : 90px;
+    border-radius : 10px;
+    margin-top: 30px;
+    margin-left: 500px
+  }
